@@ -7,7 +7,7 @@ const express = require('express');
     // In-memory data store (replace with a database in a real application)
     let appointments = [
       { id: '1', patientId: '1', date: '2023-06-15', time: '10:00', doctor: 'Dr. Smith' },
-      { id: '2', patientId: '2', date: '2023-06-16', time: '14:30', doctor: 'Dr. Johnson' }
+      { id: '2', patientId: '2', date: '2023-06-17', time: '14:30', doctor: 'Dr. Johnson' }
     ];
     
     app.get('/health', (req, res) => {
