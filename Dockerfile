@@ -1,6 +1,5 @@
 FROM node:alpine
-RUN mkdir -p /usr/src/calc
-WORKDIR /usr/src/calc
+WORKDIR .
 COPY . .
 RUN npm install
 # EXPOSE 3000
